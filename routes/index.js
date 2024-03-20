@@ -3,7 +3,7 @@ const routes = require("express").Router();
 const route = require("express").Router();
 
 routes.get("/", myController.awesomeFunction);
-route.get("/", myController.ttech);
+route.get("/ttech", myController.ttech);
 
 module.exports = routes;
 module.exports = route;
