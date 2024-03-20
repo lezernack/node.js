@@ -6,3 +6,4 @@ routes.get("/", myController.awesomeFunction);
 route.get("/", myController.ttech);
 
 module.exports = routes;
+module.exports = route;
